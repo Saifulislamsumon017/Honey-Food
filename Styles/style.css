@@ -27,7 +27,7 @@ body {
 /* Header-section Style  */
 
 header .nav-bar {
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   top: 0;
   right: 0;
@@ -38,7 +38,6 @@ header .nav-bar {
   padding: 30px 10%;
   background: transparent;
   transition: all .50s ease;
-
 }
 .nav-logo{
   display: flex;
@@ -163,4 +162,12 @@ span{
 
 
 
-/* Responsive section */
+/* Responsive site */
+
+@media screen and (max-width:576px){
+  .home{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+}
